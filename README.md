@@ -17,3 +17,9 @@ Additionally, a test notebook demonstrates a standard **walk-forward validation*
 - **Prediction**: Generate predictions for future time steps.
 - **Walk-Forward Validation**: A rolling forecast implementation that re-trains the model at each step, useful for evaluating performance on out-of-sample data.
 
+## Main Theory Reference
+The theory behind the Score Driven Model is based on the following paper by Koopman et al.:
+
+Score-Driven Time Series Models: https://sjkoopman.net/papers/OUPch2_final_upload.pdf
+
+This paper provides a comprehensive overview of the underlying statistical framework and methodology used to construct SDMs.
