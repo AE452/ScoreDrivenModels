@@ -17,15 +17,3 @@ Additionally, a test notebook demonstrates a standard **walk-forward validation*
 - **Prediction**: Generate predictions for future time steps.
 - **Walk-Forward Validation**: A rolling forecast implementation that re-trains the model at each step, useful for evaluating performance on out-of-sample data.
 
-## Requirements
-
-- Python 3.x
-- `numpy`
-- `pandas`
-- `matplotlib`
-- `scipy`
-
-To install the required dependencies, use:
-
-```bash
-pip install -r requirements.txt
